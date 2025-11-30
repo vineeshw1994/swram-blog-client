@@ -1,4 +1,4 @@
-const API = 'http://apibgway.genzcodershub.com/';
+const API = 'https://apibgway.genzcodershub.com/';
 
 export const api = async (path, options = {}) => {
   const res = await fetch(`${API}${path}`, {
