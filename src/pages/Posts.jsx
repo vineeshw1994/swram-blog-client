@@ -12,7 +12,7 @@ export default function Posts() {
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl mb-6">All Super Posts</h1>
+      <h1 className="text-3xl mb-6">All Posts</h1>
       <div className="grid gap-4">
         {posts.map(post => (
           <div key={post._id} className="p-4 bg-white rounded shadow">

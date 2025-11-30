@@ -28,4 +28,4 @@ jobs:
           key: ${{ secrets.PROD_SSH_KEY }}
           script: |
             cd /var/www/swarm
-            docker stack deploy -c deploy_client.yml blogstack
+            docker stack deploy -c deploy_all.yml blogstack --with-registry-auth
